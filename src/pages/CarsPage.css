@@ -1,0 +1,63 @@
+
+.price::after{
+    content: " €";
+}
+.container{
+    width: 1200px;
+  }
+.carousel {
+    height:200px;
+    margin: auto;
+  }
+  .btn{
+    border: none;
+    outline: none;
+    background: rgba(29, 165, 199, 0.397);
+    color: #413636;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+    background-color: #08a0a8d7;
+    color: aliceblue;
+  }
+.carousel-indicators li { 
+  visibility: hidden; 
+}
+
+.card{
+   margin-top: 12px;
+   border: none;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+	  grid-column-gap: 20px;
+
+}
+.btn-position{
+  width: 100%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.text-position{
+ margin: 7px;
+}
+.price{
+  background-color:  #ada2a248;
+  border-radius: 10px;
+  text-align: center;
+  font-size: larger;
+  color: #413636;
+}
